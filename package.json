@@ -11,7 +11,7 @@
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
     "test": "NODE_ENV=test jest -i",
     "build": "tsc --project tsconfig.json",
-    "start": "ts-node src/config/server.ts"
+    "start": "ts-node src/server.ts"
   },
   "dependencies": {
     "@types/swagger-jsdoc": "^6.0.0",
